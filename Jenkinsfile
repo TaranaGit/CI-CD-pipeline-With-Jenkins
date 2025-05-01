@@ -12,12 +12,18 @@ pipeline {
             steps {
                sh '''
                     npm install
-                  
                     npm run build
 
                '''
             }
         }
+        stage('Serve Build') {
+            steps {
+                    sh 'npm install -g serve'
+                    sh 'serve -s dist -l 5000'
+    }
+}
+
     }
 
     post{
