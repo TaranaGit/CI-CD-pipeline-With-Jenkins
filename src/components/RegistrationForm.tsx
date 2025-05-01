@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Student from "../models/student";
-import Grade_Name from "../constant/gradeLavel";
 import './RegistrationStyle.css';
 import { Button, Form } from "react-bootstrap";
 

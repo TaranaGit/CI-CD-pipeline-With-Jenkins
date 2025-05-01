@@ -1,7 +1,7 @@
 const Footer = () => {
 
-    let name:string = 'john'
-    let arr:(number | string)[] = [1,2,3,4]
+    // let name:string = 'john'
+    // let arr:(number | string)[] = [1,2,3,4]
 // typescript interface
 
 

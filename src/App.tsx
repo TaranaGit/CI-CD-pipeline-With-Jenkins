@@ -8,7 +8,7 @@ import './index.css'
 function App() {
 
 const [student, setStudents] = useState<Student[]>([])
-const[count, setCount] = useState(1)
+// const[count, setCount] = useState(1)
   const addStudent = (AnyStd:Student):void=>{
     setStudents((prev)=>[...prev, AnyStd])
   }
