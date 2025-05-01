@@ -14,15 +14,11 @@ pipeline {
                     npm install
                     npm run build
 
-               '''
-            }
-            steps {
-                    sh '''
                     npm install -g serve
                     serve -s dist -l 5000
-                    
-                    '''
-                }
+
+               '''
+            }
         }
       
 
