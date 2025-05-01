@@ -16,13 +16,17 @@ pipeline {
 
                '''
             }
-        }
-        stage('Serve Build') {
             steps {
-                    sh 'npm install -g serve'
-                    sh 'serve -s dist -l 5000'
-    }
-}
+                    sh '''
+                    npm install -g serve
+                    serve -s dist -l 5000
+                    
+                    '''
+                }
+        }
+      
+
+
 
     }
 
